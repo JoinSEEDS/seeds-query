@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "1",
+        "account": "alejandroga1",
+        "sponsor": "acascalheira",
+        "vouch_points": 100
+    },
+    {
+        "_id": "2",
+        "account": "alejandroga1",
+        "sponsor": "acascalheira",
+        "vouch_points": 200
+    },
+    {
+        "_id": "3",
+        "account": "aleksandar11",
+        "sponsor": "alejandroga1",
+        "vouch_points": 50
+    },
+    {
+        "_id": "4",
+        "account": "alextest1234",
+        "sponsor": "alejandroga1",
+        "vouch_points": 0
+    },
+    {
+        "_id": "5",
+        "account": "cometogetdev",
+        "sponsor": "alextest1234",
+        "vouch_points": 500
+    }
+]

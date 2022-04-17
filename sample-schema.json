@@ -1,0 +1,35 @@
+[
+    {
+        "table_name": "accts.seeds-users",
+        "key": "account",
+        "fields": [
+            {
+                "name": "_id",
+                "type": "id",
+                "resolve": "self"
+            },
+            {
+                "name": "account",
+                "type": "string",
+                "resolve": "self"
+            },
+            {
+                "name": "reputation",
+                "type": "integer",
+                "resolve": "self"
+            },
+            {
+                "name": "vouches_for",
+                "type": "accts.seeds-vouch",
+                "resolve": "external",
+                "foreign_key": "account"
+            },
+            {
+                "name": "vouches_by",
+                "type": "accts.seeds-vouch",
+                "resolve": "external",
+                "foreign_key": "sponsor"
+            }
+        ]
+    }
+]
